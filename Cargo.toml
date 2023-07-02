@@ -1,0 +1,18 @@
+[package]
+name = "noisy_chan"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+rand_core = "0.6.4"
+noise-protocol = { git = "https://github.com/SnowyCoder/noise-rust-elligator", rev = "154ef74" }
+noise-rust-crypto = { git = "https://github.com/SnowyCoder/noise-rust-elligator", rev = "154ef74" }
+zeroize = "1.6.0"
+tokio = { version = "1.28.2", features = ["macros", "rt-multi-thread", "net", "sync", "io-util", "fs"] }
+thiserror = "1.0.40"
+bytes = "1.4.0"
+clap = "4.3.8"
+hex = "0.4.3"
