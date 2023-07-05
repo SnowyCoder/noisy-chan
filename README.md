@@ -3,7 +3,7 @@
 Welcome to noisy-chan, my proof of concept implementation of a Noise pipe with Elligator steganography.
 
 <p align="center">
-  <img src="docs/images/icon_project.png" alt="Project logo" width="200px">
+  <img src="docs/images/icon.svg" alt="Project logo" width="200px">
 </p>
 
 
