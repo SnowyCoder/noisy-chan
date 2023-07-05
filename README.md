@@ -2,6 +2,11 @@
 
 Welcome to noisy-chan, my proof of concept implementation of a Noise pipe with Elligator steganography.
 
+<p align="center">
+  <img src="docs/images/icon_project.png" alt="Project logo" width="200px">
+</p>
+
+
 ## Demo
 
 ```bash
@@ -32,3 +37,8 @@ During the Handshake, Bob (the server) is the first to send its public key to an
 ## Practical Security
 Putting the theoretical study behind, this code has been written by an IT student, not a cryptographer, I reimplemented Elligator curve-to-hash and all Noise exchange and padding (the lower-level Noise cryptography is handled by [blckngm's libray](https://github.com/blckngm/noise-rust) with some minor edits to X25519).
 No kind of security analysis has been performed, please don't use this in any kind of security-critical application.
+
+# Acknowledgements
+The beautiful project icon has been drawn by Giorgia Nizzoli (contacts: [instagram](https://www.instagram.com/gioombra/), [telegram](https://t.me/gioombra)).
+
+A special thanks goes to my professor, Luca Ferretti, that taught "Crittografia Applicata" perfectly.
